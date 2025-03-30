@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from 'next/link';
+
 export default function Hero() {
   return (
     <section className="relative py-20 overflow-hidden">
@@ -15,12 +17,12 @@ export default function Hero() {
               Discover exceptional properties in prime locations with our expert real estate services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="px-8 py-4 bg-gradient-to-r from-red-800/90 to-red-900/90 text-amber-300 rounded-xl hover:shadow-lg transition-all transform hover:scale-105">
+              <Link href="/properties" className="px-8 py-4 bg-gradient-to-r from-red-800/90 to-red-900/90 text-amber-300 rounded-xl hover:shadow-lg transition-all transform hover:scale-105">
                 Explore Properties
-              </button>
-              <button className="px-8 py-4 border-2 border-red-800/80 text-red-900 rounded-xl hover:bg-red-50 transition-all">
+              </Link>
+              <Link href="/contact" className="px-8 py-4 border-2 border-red-800/80 text-red-900 rounded-xl hover:bg-red-50 transition-all">
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
           <div className="lg:w-1/2 mt-12 lg:mt-0">
