@@ -18,8 +18,8 @@ export default function NotFound() {
           </h2>
           
           <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-            The page you are looking for doesn't exist or has been moved. 
-            Let's get you back on track to finding your dream property.
+            The page you are looking for does not exist or has been moved. 
+            Let us get you back on track to finding your dream property.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">

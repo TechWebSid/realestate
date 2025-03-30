@@ -10,7 +10,7 @@ export default function HeroSection() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-            With over 15 years of excellence in real estate, we're committed to delivering exceptional homes and building lasting communities.
+            With over 15 years of excellence in real estate, we are committed to delivering exceptional homes and building lasting communities.
           </p>
         </div>
       </div>

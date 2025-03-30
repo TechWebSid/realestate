@@ -74,7 +74,7 @@ export default function AchievementsSection() {
 
         <div className="mt-12 bg-gradient-to-r from-rose-100 to-orange-100 rounded-3xl p-8 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Building Tomorrow's Communities Today
+            Building Tomorrow Communities Today
           </h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Our achievements reflect our commitment to excellence, sustainability, and community development. 

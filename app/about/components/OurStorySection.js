@@ -9,10 +9,10 @@ export default function OurStorySection() {
             <h2 className="text-3xl font-bold text-gray-900">Our Story</h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                Founded in 2008, our journey began with a simple vision: to create homes that people would love to live in. Today, we've grown into one of the most trusted names in real estate development.
+                Founded in 2008, our journey began with a simple vision: to create homes that people would love to live in. Today, we have grown into one of the most trusted names in real estate development.
               </p>
               <p>
-                We've successfully delivered over 50 projects, housing more than 10,000 happy families. Our commitment to quality, transparency, and innovation has made us the preferred choice for homebuyers.
+                We have successfully delivered over 50 projects, housing more than 10,000 happy families. Our commitment to quality, transparency, and innovation has made us the preferred choice for homebuyers.
               </p>
             </div>
             <div className="grid grid-cols-3 gap-6 pt-6">

@@ -14,7 +14,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-lg sm:text-xl text-gray-700 max-w-2xl mx-auto">
-              Have questions about our properties? We're here to help you find your dream home.
+              Have questions about our properties? We are here to help you find your dream home.
             </p>
           </div>
           

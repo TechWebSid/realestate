@@ -33,7 +33,7 @@ export default function Testimonials() {
             <div key={index} 
                  className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg
                            border border-gray-100 hover:border-amber-200">
-              <div className="text-amber-500 text-4xl mb-6">"</div>
+              {/* <div className="text-amber-500 text-4xl mb-6">"</div> */}
               <p className="text-gray-600 mb-6">{testimonial.text}</p>
               <div className="border-t border-gray-100 pt-4">
                 <p className="font-semibold text-red-900">{testimonial.author}</p>

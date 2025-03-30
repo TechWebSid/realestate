@@ -74,12 +74,12 @@ export default function QuotationForm() {
     <div className="w-full bg-white rounded-3xl p-8 shadow-lg border border-gray-100">
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-gray-900">Get a Free Quotation</h2>
-        <p className="text-gray-600 mt-2">Fill out the form below and we'll get back to you with a detailed quotation.</p>
+        <p className="text-gray-600 mt-2">Fill out the form below and we will get back to you with a detailed quotation.</p>
       </div>
 
       {status.submitted && (
         <div className="mb-6 p-4 bg-green-50 text-green-700 rounded-xl">
-          Thank you for your message! We'll get back to you soon.
+          Thank you for your message! We will get back to you soon.
         </div>
       )}
 

@@ -12,11 +12,11 @@ export default function AboutSection() {
             </h2>
             
             <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
-              Lucknow Infra Vision is a premier luxury real estate company specializing in high-end properties. With over 15 years of experience, we've built a reputation for exceptional service and unparalleled expertise in the luxury real estate market.
+              Lucknow Infra Vision is a premier luxury real estate company specializing in high-end properties. With over 15 years of experience, we have built a reputation for exceptional service and unparalleled expertise in the luxury real estate market.
             </p>
             
             <p className="text-sm sm:text-base text-gray-700 mb-6 sm:mb-8">
-              Our dedicated team of experienced real estate professionals is committed to providing personalized service tailored to each client's unique needs. Whether you're looking to buy, sell, or invest, we're here to guide you through every step of the process.
+              Our dedicated team of experienced real estate professionals is committed to providing personalized service tailored to each client unique needs. Whether you are looking to buy, sell, or invest, we are here to guide you through every step of the process.
             </p>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6">

@@ -34,7 +34,7 @@ export default function ContactSection() {
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-1 sm:mb-2">Email Us</h3>
               <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2">info@realtyhub.com</p>
-              <p className="text-xs sm:text-sm text-gray-600">We'll respond within 24hrs</p>
+              <p className="text-xs sm:text-sm text-gray-600">We will respond within 24hrs</p>
             </div>
             
             <div className="text-center sm:col-span-2 md:col-span-1">
