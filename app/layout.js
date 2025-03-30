@@ -15,6 +15,16 @@ export const metadata = {
   title: "Lucknow Infra Vision | Find Your Dream Home",
   description: "Discover your perfect property with RealtyHub. Browse listings, connect with expert agents, and find your dream home today.",
   keywords: "real estate, property, homes for sale, houses, apartments, condos, realtors, agents",
+  icons: [
+    {
+      rel: 'icon',
+      url: '/favicon.png',
+    },
+    {
+      rel: 'apple-touch-icon',
+      url: '/favicon.png',
+    }
+  ],
 };
 
 export default function RootLayout({ children }) {
