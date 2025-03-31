@@ -23,10 +23,10 @@ export default function Navbar() {
                 alt="Lucknow Infra Vision Logo"
                 width={40}
                 height={40}
-                className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
                 priority
               />
-              <span className="text-lg sm:text-xl font-semibold bg-gradient-to-r from-rose-500 to-orange-500 bg-clip-text text-transparent">
+              <span className="text-lg sm:text-xl font-semibold text-[#902C2E]">
                 Lucknow Infra Vision
               </span>
             </Link>
