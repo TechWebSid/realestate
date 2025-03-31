@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -42,10 +43,21 @@ export default function Navbar() {
             <Link href="/about" className="text-gray-600 hover:text-rose-500 font-medium transition-colors text-sm lg:text-base">
               About
             </Link>
-           
             <Link href="/contact" className="text-gray-600 hover:text-rose-500 font-medium transition-colors text-sm lg:text-base">
               Contact
             </Link>
+            {/* Social Media Icons for Desktop */}
+            <div className="flex items-center space-x-3">
+              <a href="https://www.facebook.com/share/18XMwz1MBC/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaFacebook className="w-5 h-5" />
+              </a>
+              <a href="https://x.com/Lucknow_infra?t=YOjlkwLHLrQ-OY7_xva0tA&s=08" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaTwitter className="w-5 h-5" />
+              </a>
+              <a href="https://www.facebook.com/share/18XMwz1MBC/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaInstagram className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -83,10 +95,21 @@ export default function Navbar() {
             <Link href="/about" className="block px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-rose-500 hover:bg-gray-50">
               About
             </Link>
-          
             <Link href="/contact" className="block px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-rose-500 hover:bg-gray-50">
               Contact
             </Link>
+            {/* Social Media Icons for Mobile */}
+            <div className="flex items-center space-x-4 px-3 py-2">
+              <a href="https://www.facebook.com/share/18XMwz1MBC/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaFacebook className="w-5 h-5" />
+              </a>
+              <a href="https://x.com/Lucknow_infra?t=YOjlkwLHLrQ-OY7_xva0tA&s=08" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaTwitter className="w-5 h-5" />
+              </a>
+              <a href="https://www.facebook.com/share/18XMwz1MBC/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-rose-500 transition-colors">
+                <FaInstagram className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
       )}

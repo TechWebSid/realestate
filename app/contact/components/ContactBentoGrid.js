@@ -17,7 +17,7 @@ export default function ContactBentoGrid() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Phone</p>
-                <p className="text-gray-600">+91 123 456 7890</p>
+                <p className="text-gray-600">+91 8887676039</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
@@ -28,7 +28,7 @@ export default function ContactBentoGrid() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Email</p>
-                <p className="text-gray-600">info@lucknowinfra.com</p>
+                <p className="text-gray-600">info@lucknowinfravision.in</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
@@ -40,7 +40,7 @@ export default function ContactBentoGrid() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Address</p>
-                <p className="text-gray-600">Sarvaan Nagar, Bijnor</p>
+                <p className="text-gray-600"> UGF 68, Omaxe Avenue, Omaxe City, AdjacentOmaxe, Lucknow, Uttar Pradesh 226002</p>
               </div>
             </div>
           </div>

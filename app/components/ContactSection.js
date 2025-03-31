@@ -22,7 +22,7 @@ export default function ContactSection() {
                 </svg>
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-1 sm:mb-2">Call Us</h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2">(800) 123-4567</p>
+              <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2">(800) </p>
               <p className="text-xs sm:text-sm text-gray-600">Mon-Fri: 9AM-6PM</p>
             </div>
             
@@ -33,7 +33,7 @@ export default function ContactSection() {
                 </svg>
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-1 sm:mb-2">Email Us</h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2">info@realtyhub.com</p>
+              <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2">info@lucknowinfravision.in</p>
               <p className="text-xs sm:text-sm text-gray-600">We will respond within 24hrs</p>
             </div>
             
